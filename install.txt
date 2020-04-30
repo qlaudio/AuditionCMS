@@ -1,0 +1,7 @@
+1.
+First of all go to your db and alter audition>userinfo table.
+Delete default value for UserSn and click Auto Inc.
+UserSN must be autoincrement to get the register properly working.
+
+2.
+Edit config values db.php file on include folder.
